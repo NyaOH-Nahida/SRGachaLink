@@ -1,4 +1,5 @@
-# yuanshenlink
+# 星铁抽卡链接获取工具SRGachaLink
+## 二改自qyinter 的yuanshenlink
 - ~~本项目为获取原神抽卡分析地址用途，需要登陆米哈游通行证获取cookie后使用~~
 
 - ~~使用手机号+手机验证码方式登录可能会有问题。~~
