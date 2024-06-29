@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用方法:登录进游戏,点击跃迁>查看详情>历史记录,自动获取抽卡链接"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注意:云星穹铁道使用的官方的安全有保障\n若无法启动游戏，请尝试更新系统WebView"
+        android:textSize="16dp" />
+
+    <!--    <com.google.android.material.button.MaterialButtonToggleGroup-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginHorizontal="16dp"-->
+    <!--        android:layout_marginVertical="10dp">-->
+
+    <!--        <com.google.android.material.button.MaterialButton-->
+    <!--            android:id="@+id/cookieBtn"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="点击获取并复制链接" />-->
+
+    <!--    </com.google.android.material.button.MaterialButtonToggleGroup>-->
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textSize="12dp" />
+
+</LinearLayout>
