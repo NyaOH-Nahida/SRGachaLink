@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.qyinter.yuanshenlink'
+    namespace 'com.firefly.srgachalink'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.qyinter.yuanshenlink"
+        applicationId "com.firefly.srgachalink"
         minSdk 21
         targetSdk 33
         versionCode 3

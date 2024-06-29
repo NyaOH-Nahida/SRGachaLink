@@ -13,13 +13,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1.登录进游戏,点击历史抽卡,url自动获取..."
+        android:text="使用方法:登录进游戏,点击跃迁>查看详情>历史记录,自动获取抽卡链接"
         android:textSize="16dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="注意:云原神使用的官方的安全有保障...最新更新关注微信公众号:《原魔工具箱》"
+        android:text="注意:云星穹铁道使用的官方的安全有保障\n若无法启动游戏，请尝试更新系统WebView"
         android:textSize="16dp" />
 
     <!--    <com.google.android.material.button.MaterialButtonToggleGroup-->
