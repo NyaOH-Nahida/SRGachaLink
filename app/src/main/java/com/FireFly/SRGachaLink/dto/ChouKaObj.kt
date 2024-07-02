@@ -1,4 +1,4 @@
-package com.qyinter.yuanshenlink.dto
+package com.FireFly.SRGachaLink.dto
 
 data class ChouKaObj(
     val code: Int,

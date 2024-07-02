@@ -1,4 +1,4 @@
-package com.qyinter.yuanshenlink.dto
+package com.FireFly.SRGachaLink.dto
 
 data class UserGameRolesByCookieDataDto(
     val `data`: UserGameRolesByCookieData,

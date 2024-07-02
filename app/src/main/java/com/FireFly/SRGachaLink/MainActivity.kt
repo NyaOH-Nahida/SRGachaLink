@@ -1,4 +1,4 @@
-package com.firefly.srgachalink
+package com.FireFly.SRGachaLink
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -40,8 +40,9 @@ class MainActivity : AppCompatActivity() {
                 request: WebResourceRequest?
             ): WebResourceResponse? {
                 request?.let {
-                    if (it.url.toString().contains("api-takumi.mihoyo.com")) {
+                    if (it.url.toString().contains("api-takumi.mihoyo.com/common/gacha_record/api/getGachaLog")) {
                         //抓取请求头为api-takumi.mihoyo.com的链接
+                        //之前因为误抓取公告链接，现已增加相关关键词匹配
                         // 在主线程中执行 UI 操作
                         runOnUiThread {
                             Log.d("WebViewRequest", "URL being loaded: ${it.url}")

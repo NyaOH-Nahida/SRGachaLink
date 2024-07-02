@@ -1,4 +1,4 @@
-package com.qyinter.yuanshenlink.util
+package com.FireFly.SRGachaLink.util
 
 import java.math.BigInteger
 import java.security.MessageDigest

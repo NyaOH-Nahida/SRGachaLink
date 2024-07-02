@@ -1,15 +1,15 @@
-package com.firefly.srgachalink.http
+package com.FireFly.SRGachaLink.http
 
 import android.os.Handler
 import android.os.Message
-import com.firefly.srgachalink.dto.AuthKeyDataDto
-import com.firefly.srgachalink.dto.AuthKeyPostData
-import com.firefly.srgachalink.dto.ChouKaObj
-import com.firefly.srgachalink.dto.ListUrl
-import com.firefly.srgachalink.dto.LoginCookieDataDto
-import com.firefly.srgachalink.dto.LoginTokenDto
-import com.firefly.srgachalink.dto.UserGameRolesByCookieDataDto
-import com.firefly.srgachalink.util.Md5Util
+import com.FireFly.SRGachaLink.dto.AuthKeyDataDto
+import com.FireFly.SRGachaLink.dto.AuthKeyPostData
+import com.FireFly.SRGachaLink.dto.ChouKaObj
+import com.FireFly.SRGachaLink.dto.ListUrl
+import com.FireFly.SRGachaLink.dto.LoginCookieDataDto
+import com.FireFly.SRGachaLink.dto.LoginTokenDto
+import com.FireFly.SRGachaLink.dto.UserGameRolesByCookieDataDto
+import com.FireFly.SRGachaLink.util.Md5Util
 import com.google.gson.Gson
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient

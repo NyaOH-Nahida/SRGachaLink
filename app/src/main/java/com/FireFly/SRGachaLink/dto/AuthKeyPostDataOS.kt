@@ -1,4 +1,4 @@
-package com.firefly.srgachalink.dto
+package com.FireFly.SRGachaLink.dto
 
 data class AuthKeyPostDataOS(
     val game_biz: String,

@@ -1,4 +1,4 @@
-package com.firefly.srgachalink.dto
+package com.FireFly.SRGachaLink.dto
 
 data class AuthKeyDataDto(
     val `data`: AuthKeyData,
