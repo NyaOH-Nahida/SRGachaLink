@@ -1,3 +1,4 @@
+# 该项目已停止维护，请看最新的[米哈游抽卡链接获取工具](https://gitee.com/NyaOH/miHoYoGetGachaLink/)
 # SRGachalink 星铁抽卡链接获取工具
 ## 该项目使用[qyinter](https://github.com/qyinter)的[yuanshenlink](https://github.com/qyinter/yuanshenlink)制作而成
   因为之前发现yuanshenlink的代码只需要改两处就可以适配星铁抽卡链接监听，于是就在高中学业之余fork了一下原项目并自己动手改起来了……<br>
